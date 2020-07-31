@@ -32,6 +32,7 @@ function calcular() {
     resultado.innerHTML += `<p>Cerveja 350ml : ${(qtdTotalCerveja / 350).toFixed(0)} Latas</p>`
     resultado.innerHTML += `<p>Cerveja 269ml : ${(qtdTotalCerveja / 269).toFixed(0)} Latas</p>`
     resultado.innerHTML += `<p>Refri / Água: ${qtdTotalRefri / 1000}L</p>`
+    // teste para commit
 }
 
 function carnePorPessoa(duracao) {
